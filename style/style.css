@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100;500&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.contenedor_tarjeta{
+    /* height: 100; */
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.tarjeta{
+    /* border:2px red solid; */
+    width: 375px;
+    /* width: 90%; */
+    /* max-width: 375px; */
+    background-color: white;
+    border-radius: 8px;
+ 
+}
+
+.tarjeta__imagen{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+
+
+
+
+.contenedor_texto{
+    margin: 20px;
+}
+
+
+.tarjeta__catergoria{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+
+.tarjeta__nombre{
+    font-family: 'Fraunces';
+    font-size: 2.1rem;
+    margin-top: 8px;
+    line-height: 35px;
+    color: hsl(212, 21%, 14%);
+}
+
+
+.tarjeta__descripcion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 25px;
+    
+}
+
+
+
+
+.tarjeta__precio{
+    font-family: 'Fraunces';
+    font-size: 33px;
+    /* color: hsl(158, 36%, 37%); */
+    color: hsl(158, 36%, 37%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tarjeta__precio--descuento{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    color: hsl(228, 12%, 48%);
+    margin-left: 10px;
+    vertical-align:6px;
+    text-decoration: line-through;
+}
+
+.tarjeta__boton{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    display:block;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+}
+
+
+.icono{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
